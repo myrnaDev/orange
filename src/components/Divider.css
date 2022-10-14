@@ -1,0 +1,53 @@
+/* divider */
+/* Section Mid */
+#rowdivider{
+  background-color: #ebebeb;
+  display: block;
+}
+#rowdivider{
+  padding:50px 0;
+}
+p.dividertitle{
+  font: 400 170%/1.5 "Roboto", sans-serif;
+  color:#000000;
+  text-align: center;
+}
+
+p.dividertitle span{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #ff6f00;
+}
+.dividerimg{
+  text-align: center;
+}
+.dividerimg img{
+  width: 100%;
+  height:auto;
+  max-width:450px;
+  padding: 15px 0 0 0; 
+}
+.dividerimg iframe{
+  width: 100%;
+  height: auto;
+  min-height:255px;
+  max-width:450px;
+  padding: 15px 0 0 0;   
+}
+.buttonpadding{
+  padding:30px 0 0 0;
+}
+.mwdivider{
+  max-width: 480px;
+}
+@media (min-width: 800px) {
+  .mwdivider{
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .dividerimg iframe{
+    min-height:200px;
+    padding: 0 0 0 0;  
+  }
+}

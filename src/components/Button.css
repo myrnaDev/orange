@@ -1,0 +1,55 @@
+.orangeBtn{
+  color:#ffffff;
+  background-color: #ff6f00;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 240px;
+  height: 50px;
+  line-height: 50px;
+  display:inline-block;
+  margin: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: background-color 300ms ease-out;
+     -moz-transition: background-color 300ms ease-out;
+       -o-transition: background-color 300ms ease-out;
+          transition: background-color 300ms ease-out;
+}
+.orangeBtn:hover{
+  background-color: #00e5ff;
+}
+.orangeBtn .orangeBtnIcon {
+  width: 50px;
+  height: 50px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  color: #ffffff;
+  margin: 0 10px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+.orangeBtn .orangeBtnIcon.orangeBtnNoIcon {
+  display: none;  
+}
+.orangeBtn .orangeBtnText{
+  text-align: center;
+  display: block;
+}
+.orangeBtn .orangeBtnText.orangeBtnIconText{
+  margin: 0 20px 0px 50px;
+}
+.orangeBtnactive{
+  background-color: #00e5ff;
+  -webkit-transition: background-color 300ms ease-out;
+     -moz-transition: background-color 300ms ease-out;
+       -o-transition: background-color 300ms ease-out;
+          transition: background-color 300ms ease-out;  
+}
+.orangeBtnactive:active {
+  background-color: #00e5ff;
+}

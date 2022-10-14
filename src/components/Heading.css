@@ -1,0 +1,150 @@
+/* Special Heading Card */
+.parentheadingcard{
+  text-align: center;
+}
+.headingcard{
+  padding: 38px 20px;
+  margin:0 auto;
+  display:inline-block;
+}
+.headingcard.headingcardtrabajo{
+  padding: 66px 20px;
+}.headingcard.headingcardcontacto{
+  padding: 70px 20px;
+}
+.borderheadingcard{
+  -moz-transform:  translate(16px, 0px);
+  -webkit-transform:  translate(16px, 0px);
+  -o-transform:  translate(16px, 0px);
+  -ms-transform: translate(16px, 0px);
+  transform: translate(16px, 0px);
+  padding:8px 0;
+}
+
+/* 
+.headingcard.iconhacemos h1::before{
+  background-color: #00e5ff;
+  background-image: url(../images/icons/gear-icon.png);
+}
+.headingcard.icontrabajo h1::before{
+  background-color: #00e5ff;
+  background-image: url(../images/icons/laser-icon.png);
+}
+.headingcard.iconequipamiento h1::before{
+  background-color: #00e5ff;
+  background-image: url(../images/icons/conveyor-icon.png);
+}
+.headingcard.iconsubir h1::before{
+  background-color: #00e5ff;
+  background-image: url(../images/icons/fileup-icon.png);
+}
+.headingcard.iconcontacto h1::before{
+  background-color: #ffffff;
+  background-image: url(../images/icons/mail-icon.png);
+} 
+*/
+/* 
+.headingcard.iconcontacto h1, .headingcard.iconcontacto h2{
+  color:#ffffff;
+  background-color: #ff6f00;
+}
+.headingcard.iconequipamiento h1, .headingcard.iconequipamiento h2{
+  background-color: #ebebeb;
+}
+.headingcard.iconhacemos h1, .headingcard.iconhacemos h2{
+  background-color: #efefef;
+} 
+*/
+.headingcard .bgcolorgrayF{
+  background-color: #efefef;
+}
+.headingcard .bgcolorgrayB{
+  background-color: #ebebeb;
+}
+.headingcard .bgcoloraqua{
+  background-color: #00e5ff;
+}
+.headingcard .bgcolororange{
+  background-color: #ff6f00;
+}
+.headingcard .bgcolorwhite{
+  background-color: #ffffff;
+}
+.headingcard .colorwhite{
+  color:#ffffff;
+}
+.borderHeadorange{
+  border-top:1px solid #ff6f00;
+  border-right:1px solid #ff6f00;
+  border-bottom:1px solid #ff6f00;
+  border-left:1px solid #ff6f00; 
+}
+.borderHeadwhite{
+  border-top:1px solid #ffffff;
+  border-right:1px solid #ffffff;
+  border-bottom:1px solid #ffffff;
+  border-left:1px solid #ffffff;  
+}
+.headingcard h1{
+  color:#000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin:0;
+  text-align: center;
+  -moz-transform:  translate(-16px, 0px);
+  -webkit-transform:  translate(-16px, 0px);
+  -o-transform:  translate(-16px, 0px);
+  -ms-transform: translate(-16px, 0px);
+  transform: translate(-16px, 0px);
+  padding:10px 0 0 0;
+}
+.headingcard h1 span.heading1thin{
+  color:#000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.iconbefore{
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  color: #ffffff;
+  margin: 0 5px 0 0;
+  position: absolute;
+  top: 6px;
+  left: -45px;
+  z-index:5;
+}
+.headingcard h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 11px;
+  color:#000000;
+  margin:0;
+  text-align: center;
+  -moz-transform:  translate(-16px, 0px);
+  -webkit-transform:  translate(-16px, 0px);
+  -o-transform:  translate(-16px, 0px);
+  -ms-transform: translate(-16px, 0px);
+  transform: translate(-16px, 0px);
+  padding:0 0 10px 0;
+  width: 224px;
+}
+@media (min-width: 767px) {
+  .headingcard h1{
+    font-size: 30px;
+  }
+  .headingcard h1 span.heading1thin{
+    font-size: 30px;
+  }
+  .headingcard h2{
+    width: auto;
+  }
+}

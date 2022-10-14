@@ -1,0 +1,21 @@
+/* Section Que hacemos */
+#quehacemos{
+  /* background: url(../images/bghacemos.jpg); */
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  padding:0 0 50px 0;
+}
+.hacemosimg img{
+  width: 100%;
+  height:auto;
+  max-width:484px; 
+}
+.mwquehacemos{
+  max-width: 480px;
+}
+@media (min-width: 800px) {
+  .mwquehacemos{
+    max-width: 750px;
+  }
+}

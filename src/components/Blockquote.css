@@ -1,0 +1,66 @@
+/* Blockquote */
+blockquote.quote{
+  display:block;
+  padding: 13px 0px 13px 13px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000000;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 7px solid #ff6f00;
+}
+blockquote.quote.quotehacemos{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 8px 0 35px 0;
+  min-height:64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+blockquote.quote.quoteequip{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.2;
+
+}
+blockquote.quote.quoteequip span.quoteequiptitle{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+  text-align: left;
+}
+blockquote.quote.quotesubir{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 0 15px;
+  min-height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+blockquote.borderorange{
+  border-left: 7px solid #ff6f00;
+}
+blockquote.borderaqua{
+  border-left: 7px solid #00e5ff
+}
+@media (min-width: 992px) {
+  blockquote.quote.quotehacemos{
+    min-height:83px;
+  }
+}
