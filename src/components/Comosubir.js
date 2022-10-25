@@ -17,6 +17,8 @@ function Comosubir(){
                 titlethin="Cómo"
                 title="Subir tu Archivo"
                 subtitle="Instrucciones para un trabajo eficiente"
+                titlecolor="colorblack"
+                subtitlecolor="colorblack"
               />          
             </div>
           </div>

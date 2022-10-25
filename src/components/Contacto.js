@@ -25,6 +25,8 @@ function Contacto(){
                 bgcolor="bgcolororange"
                 title="Contacto"
                 subtitle="Te responderemos a la brevedad"
+                titlecolor="colorwhite"
+                subtitlecolor="colorwhite"
               />          
             </div>
           </div>

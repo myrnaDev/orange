@@ -1,5 +1,5 @@
 import React,  { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, animateScroll  as scroll } from "react-scroll";
 import './Navbar.css';
 
 function Navbar() {
@@ -8,38 +8,72 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const scrollToTop = () => {
+    scroll.scrollToTop(); 
+  };
+
   return (
     <>
       <div id="menu-content-wrap">
         <div className="menu-logo">
-          <Link to='/' onClick={ closeMobileMenu } >
+          <Link to='/' onClick={ scrollToTop } >
             <img src="images/menu/orange-logo.png" alt="" />
           </Link>
         </div>
         <nav className="nav">
           <ul>
-            <li className="nav-btn active" data-row-id="quehacemos">
-              <Link to='#quehacemos'>
+            <li className="nav-btn active">
+              <Link
+                to='quehacemos'
+                spy={true}
+                smooth='easeInOutQuad'
+                offset={-60}
+                duration={600}
+              >
                 Qué Hacemos
               </Link>
             </li>
-            <li className="nav-btn" data-row-id="nuestrotrabajo">
-              <Link to='#nuestrotrabajo'>
+            <li className="nav-btn">
+              <Link 
+                to='nuestrotrabajo'
+                spy={true}
+                smooth='easeInOutQuad'
+                offset={-60}
+                duration={600}
+              >
                 Nuestro Trabajo
               </Link>
             </li>
-            <li className="nav-btn" data-row-id="equipamiento">
-              <Link to='#equipamiento'>
+            <li className="nav-btn">
+              <Link 
+                to='equipamiento'
+                spy={true}
+                smooth='easeInOutQuad'
+                offset={-60}
+                duration={600}
+              >
                 Equipamiento
               </Link>
             </li>
-            <li className="nav-btn" data-row-id="comosubir">
-              <Link to='#comosubir'>
+            <li className="nav-btn">
+              <Link 
+                to='comosubir'
+                spy={true}
+                smooth='easeInOutQuad'
+                offset={-60}
+                duration={600}
+              >
                 Cómo subir tu archivo
               </Link>
             </li>
-            <li className="nav-btn" data-row-id="contacto">
-              <Link to='#contacto'>
+            <li className="nav-btn">
+              <Link 
+                to='contacto'
+                spy={true}
+                smooth='easeInOutQuad'
+                offset={-60}
+                duration={600}
+              >
                 Contacto
               </Link>
             </li>

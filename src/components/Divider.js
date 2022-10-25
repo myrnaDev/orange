@@ -25,14 +25,14 @@ function Divider(){
           <div className="row">
             <div className="col-xs-12 center buttonpadding">
             <Button
-                url="#"
+                url="nuestrotrabajo"
                 iconStyle=""
                 iconBg="./images/icons/zoom-icon.png"
                 textStyle="orangeBtnIconText"
                 text="Ver Nuestro Trabajo"
               />
               <Button
-                url="#"
+                url="contacto"
                 iconStyle=""
                 iconBg="./images/icons/check-icon.png"
                 textStyle="orangeBtnIconText"

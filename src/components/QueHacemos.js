@@ -20,6 +20,8 @@ function QueHacemos(){
             titlethin="Qué"
             title="Hacemos"
             subtitle="Servicio de Corte CNC Láser y Router"
+            titlecolor="colorblack"
+            subtitlecolor="colorblack"
           />          
         <div className="container clearfix mwquehacemos">
           <div className="row">
@@ -59,14 +61,14 @@ function QueHacemos(){
           <div className="row">
             <div className="col-xs-12 center">
               <Button
-                url="#"
+                url="nuestrotrabajo"
                 iconStyle=""
                 iconBg="./images/icons/zoom-icon.png"
                 textStyle="orangeBtnIconText"
                 text="Ver Nuestro Trabajo"
               />
               <Button
-                url="#"
+                url="contacto"
                 iconStyle=""
                 iconBg="./images/icons/check-icon.png"
                 textStyle="orangeBtnIconText"

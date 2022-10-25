@@ -17,6 +17,8 @@ function Equipamiento(){
                 title="Equipamiento"
                 subtitle="Contamos con rápidas y potentes máquinas para el
                 desarrollo de los proyectos que realizamos"
+                titlecolor="colorblack"
+                subtitlecolor="colorblack"
               />          
             </div>
           </div>

@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import QueHacemos from './components/QueHacemos';
 import Divider from './components/Divider';
 import Nuestrotrabajo from './components/Nuestrotrabajo';

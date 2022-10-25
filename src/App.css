@@ -1622,7 +1622,13 @@ body{
 	color: #ff6f00;
 }
 .coloraqua{
-	color: #00e5ff
+	color: #00e5ff;
+}
+.colorwhite{
+	color: #ffffff;
+}
+.colorblack{
+	color: #000000;
 }
 .bgcolororange{
 	background-color: #ff6f00;

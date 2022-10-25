@@ -14,6 +14,8 @@ function Nuestrotrabajo(){
           title="Trabajo"
           subtitle="Galería fotográfica de diferentes proyectos de quienes han
           confiado en nosotros"
+          titlecolor="colorblack"
+          subtitlecolor="colorblack"
         />              
       </section>
     </>

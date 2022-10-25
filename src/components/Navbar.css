@@ -57,6 +57,7 @@ nav.nav a {
   line-height: 60px;
   text-decoration: none;
   color: #fff;
+  cursor:pointer;
 }
 nav.nav a:after {
   position: absolute;
@@ -235,6 +236,7 @@ nav.nav a:hover:after {
   color: #FFF;
   text-decoration: none;
   overflow: hidden;
+  cursor:pointer;
 }
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 100%;
