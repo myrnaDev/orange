@@ -1,0 +1,49 @@
+/* Thumb */
+.box{
+  position:relative;
+}
+.box img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.boxOverlay{
+  position: absolute;
+  background-color: rgba(255,111,0,0.9);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity:0;
+  transition: all 350ms ease-out;
+}
+.boxOverlay.active{
+  opacity:1;
+}
+.boxContent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 15px;
+  display: block;
+}
+.boxText{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 0 2px 0;
+}
+.boxIcon{
+   margin: 0 auto;
+}
+.boxIcon img{
+  width:25px;
+  height: 25px;
+  margin: 0 auto;
+}

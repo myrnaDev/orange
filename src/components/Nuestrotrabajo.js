@@ -1,5 +1,6 @@
 import './Nuestrotrabajo.css';
 import Heading from './Heading';
+import Box from './Box';
 
 function Nuestrotrabajo(){
   return (
@@ -16,7 +17,12 @@ function Nuestrotrabajo(){
           confiado en nosotros"
           titlecolor="colorblack"
           subtitlecolor="colorblack"
-        />              
+        />
+        <div className="boxGrid">
+          <Box />
+        </div>
+        
+
       </section>
     </>
   );
