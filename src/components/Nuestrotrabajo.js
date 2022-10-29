@@ -18,8 +18,10 @@ function Nuestrotrabajo(){
           titlecolor="colorblack"
           subtitlecolor="colorblack"
         />
-        <div className="boxGrid">
-          <Box />
+        <div className="container">
+          <div className="boxGrid">
+            <Box />
+          </div>
         </div>
         
 
