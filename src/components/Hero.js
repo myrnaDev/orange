@@ -9,9 +9,14 @@ function Hero(){
             <h1 className="he">Estamos enfocados en fabricar con precisión, diseños diversos,
               en grandes volúmenes y a la mayor velocidad.</h1>
           </div>
+          <div>
+            <img src="../images/hero/videoorange.jpg" />
+          </div>
+          {/* Comment here 
           <video autoPlay loop id="video-background" muted>
             <source src="images/hero/videoorange.mp4" type="video/mp4" />
           </video>
+          */}
         </div>
       </section>  
     </>

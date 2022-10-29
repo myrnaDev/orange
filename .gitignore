@@ -28,14 +28,9 @@ node/
 Thumbs.db
 
 # Images and Video
-*.jpg
-*.jpeg
-*.gif
-*.png
 *.webp
 *.svg
 *.svgz
-*.ico
 *.mp4
 *.pdf
 
