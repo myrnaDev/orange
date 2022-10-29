@@ -1,8 +1,9 @@
 import './Nuestrotrabajo.css';
 import Heading from './Heading';
-import Box from './Box';
+import Filter from './Filter';
 
 function Nuestrotrabajo(){
+
   return (
     <>
       <section className="row-nav" data-height="600" id="nuestrotrabajo">
@@ -18,13 +19,8 @@ function Nuestrotrabajo(){
           titlecolor="colorblack"
           subtitlecolor="colorblack"
         />
-        <div className="container">
-          <div className="boxGrid">
-            <Box />
-          </div>
-        </div>
-        
-
+        <Filter />
+      
       </section>
     </>
   );
