@@ -1,4 +1,4 @@
-const boxPhotos = [
+const BoxPhotos = [
   { 
     id: 1,
     src: "../images/portfolio/t/laser/laser_01.jpg",
@@ -168,4 +168,4 @@ const boxPhotos = [
     text: "Tallado Tablón Cartel"
   }    
 ];
-export default boxPhotos;
+export default BoxPhotos;

@@ -1,6 +1,8 @@
 import './Nuestrotrabajo.css';
 import Heading from './Heading';
 import Filter from './Filter';
+import Album from './Album';
+//import AlbumLight from './AlbumLight';
 
 function Nuestrotrabajo(){
 
@@ -20,6 +22,8 @@ function Nuestrotrabajo(){
           subtitlecolor="colorblack"
         />
         <Filter />
+          <div>Test carousel lightbox</div>
+        <Album />
       
       </section>
     </>

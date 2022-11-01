@@ -1,0 +1,33 @@
+.overAlbum{
+  position: fixed;
+  background: #000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .35s, visibility .35s, height .35s;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  z-index: 998;
+}
+.overAlbum.opened{
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overAlbum_text{
+  color:#ffffff;
+}
+.openAlbum{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.closeAlbum{
+  color:#ffffff;
+}
