@@ -1,7 +1,7 @@
 import './Nuestrotrabajo.css';
 import Heading from './Heading';
 import Filter from './Filter';
-import Album from './Album';
+import Box from './Box';
 //import AlbumLight from './AlbumLight';
 
 function Nuestrotrabajo(){
@@ -23,7 +23,7 @@ function Nuestrotrabajo(){
         />
         <Filter />
           <div>Test carousel lightbox</div>
-        <Album />
+        <Box />
       
       </section>
     </>
