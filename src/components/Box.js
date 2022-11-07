@@ -36,8 +36,9 @@ function Box() {
               </span>
             </span>
             <img src={src} alt={text} />
-
-            <div className={`overAlbum overAlbum${id}` + (opened === i ? " opened" : "") } >
+            
+            {/* Modal Code */}
+            <div className={`overAlbum overAlbum${id}` } >
               <div className="overAlbum_text">{text}</div>
               <div className="overAlbum_photos">{album}</div>
               <div className="closeAlbum" onClick={ closeOverAlbum } >x</div>
@@ -47,7 +48,6 @@ function Box() {
         );
       })}      
     </>
-
   )
 }
 
