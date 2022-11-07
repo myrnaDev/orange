@@ -13,7 +13,7 @@ function Box() {
     setisHovered(-1);
   }
 
-  // state for Album.js
+  // state for Album.js Modal
   const [opened, setOpened] = useState(-1);
   const handleAlbum = (i) => setOpened(i);
 
