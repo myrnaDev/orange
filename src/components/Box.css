@@ -85,3 +85,10 @@
   height: 200px;
   background-color: pink;
 }
+.overAlbum.hidden2{
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .35s, visibility .35s, height .35s;
+  transition: opacity .35s, visibility .35s, height .35s;
+}

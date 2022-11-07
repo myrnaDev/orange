@@ -17,7 +17,7 @@ function Box() {
   const [opened, setOpened] = useState(-1);
   const handleAlbum = (i) => setOpened(i);
 
-  const closeOverAlbum = (indexed) => setOpened(-1);
+  const closeOverAlbum = () => document.querySelector('.overAlbum').classList.remove("opened");
 
   return (
     <>
@@ -37,12 +37,10 @@ function Box() {
             </span>
             <img src={src} alt={text} />
 
-            <div className="album" key={`album${id}`}>
-              <div className={`overAlbum overAlbum${id}` + (opened === i ? " opened" : "") } >
-                <div className="overAlbum_text">{text}</div>
-                <div className="overAlbum_photos">{album}</div>
-                <div className="closeAlbum" onClick={ closeOverAlbum } >x</div>
-              </div>
+            <div className={`overAlbum overAlbum${id}` + (opened === i ? " opened" : "") } >
+              <div className="overAlbum_text">{text}</div>
+              <div className="overAlbum_photos">{album}</div>
+              <div className="closeAlbum" onClick={ closeOverAlbum } >x</div>
             </div>
 
           </div>           
